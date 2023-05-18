@@ -43,6 +43,7 @@ export function BlogPost({ post }: BlogPostProps) {
         <div className="mt-6 flex items-center">
           <div className="flex-shrink-0">
             <span className="sr-only">{post.author.name}</span>
+
             <img
               className="h-10 w-10 rounded-full"
               src={post.author.imageUrl}
